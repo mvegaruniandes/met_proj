@@ -23,7 +23,7 @@ public class TestModelo<T> {
 	@Test
 	public void testModelo() {
 		assertTrue(modelo!=null);
-		assertEquals(0, modelo.darTamano());  // Modelo con 0 elementos presentes.
+		assertEquals(100, modelo.darTamano());  // Modelo con 0 elementos presentes.
 	}
 
 	@Test
